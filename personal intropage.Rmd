@@ -4,12 +4,18 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
+- Pronounce: he/his/him
+- Age: 22
+- Hobbies: Badminton, Soccer, Singing, Hiking
+- Hometown: Beijing
+- Language: Mandarin & English
+
+
 # Education and Training
- - B.S. in Biochemistry and Molecular biology at UC Davis
- - M.S in Epidemiology at Columbia University Irving Medical Center
+ - B.S. in Biochemistry and Molecular biology at UC Davis (2019.10 - 2023.6)
+ - M.S in Epidemiology at Columbia University Irving Medical Center (2023.9 - now)
  
 # Skill Highlights
  - Organic & Inorganic Chemistry: Multi-step Synthesis, Distillation, Extraction, Re-crystallization, Titration, Filtration, NMR Spectroscopy.
@@ -18,21 +24,23 @@ output:
  - Relevant Trainings: Chemical Safety Training, Fire Safety Training.
  
 # Professional Experience
- - Plant Department, University of California, Davis (Lab scientific research experience)
+## Lab scientific research experience 
+ - Plant Department, University of California, Davis (Aug 2022 - Feb 2023)
      - Learn and perform CTAB-based DNA extraction
      - Prepare gels and run SDS-PAGE samples
      - Learn plant metabolic pathways and perform CRISPR-Cas9 gene knockouts cell kit.
      - Explore functions contributing to carotenoid content in wheat.
      - Learn and perform standard procedures of PCR.
   
- - Livzon R&D Department Lab, Livzon Diagnostics Inc (Internship)
+## Internship 
+ - Livzon R&D Department Lab, Livzon Diagnostics Inc (Jun-Sep 2021)
      - Activate and couple ligands to Dynabeads® M-270 carboxylic acid
      - Conduct chemiluminescence immunoassay
      - Learn quantitative fluorescence PCR and perform PCR on samples
      - Conduct Enzyme-linked immunosorbent assay (ELISA) and CV experiments
      - Perform protein electrophoresis (SDS-PAGE) and plasmid purification.
      
- - Clinical Lab, Civil Aviation Administration of China Hospital (Intership)
+ - Clinical Lab, Civil Aviation Administration of China Hospital (Jul-Aug 2020)
      - Extract clinical samples for bacterial culture
      - Separate out samples into different pathological groups on a petri dish
      - Learn and identify features of different bacterial flora

@@ -4,14 +4,16 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# This is Xiaoyu Huang's awesome website
-
+# Welcome! This is Xiaoyu Huang's personal website
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
+# This is a picture of me
+![](images/Hxy.jpg)
 
-# Link to my Personal introduction
 
-[Personal introduction](personal-intropage.html)
+
+# Here is a link to my Personal Resume
+
+[Personal Introduction](personal-intropage.html)
