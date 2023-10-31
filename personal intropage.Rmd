@@ -1,0 +1,46 @@
+---
+title: "Personal Introduction"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Education and Training
+ - B.S. in Biochemistry and Molecular biology at UC Davis
+ - M.S in Epidemiology at Columbia University Irving Medical Center
+ 
+# Skill Highlights
+ - Organic & Inorganic Chemistry: Multi-step Synthesis, Distillation, Extraction, Re-crystallization, Titration, Filtration, NMR Spectroscopy.
+ - Biochemistry: Western Blotting, ELISA, Protein collection/purification, PCR, Plasmid preparation.
+ - Software and Analysis: Microsoft Excel, Statistical analysis
+ - Relevant Trainings: Chemical Safety Training, Fire Safety Training.
+ 
+# Professional Experience
+ - Plant Department, University of California, Davis (Lab scientific research experience)
+     - Learn and perform CTAB-based DNA extraction
+     - Prepare gels and run SDS-PAGE samples
+     - Learn plant metabolic pathways and perform CRISPR-Cas9 gene knockouts cell kit.
+     - Explore functions contributing to carotenoid content in wheat.
+     - Learn and perform standard procedures of PCR.
+  
+ - Livzon R&D Department Lab, Livzon Diagnostics Inc (Internship)
+     - Activate and couple ligands to Dynabeads® M-270 carboxylic acid
+     - Conduct chemiluminescence immunoassay
+     - Learn quantitative fluorescence PCR and perform PCR on samples
+     - Conduct Enzyme-linked immunosorbent assay (ELISA) and CV experiments
+     - Perform protein electrophoresis (SDS-PAGE) and plasmid purification.
+     
+ - Clinical Lab, Civil Aviation Administration of China Hospital (Intership)
+     - Extract clinical samples for bacterial culture
+     - Separate out samples into different pathological groups on a petri dish
+     - Learn and identify features of different bacterial flora
+     
+# Honors and Awards
+ - 1st place, International High school soccer league 2019
+ - 5th place, Badminton team in the district Badminton Tournament 2018
+ - Team 4th place, Table Tennis District Tournament 2015
+ - Choir Team, National Center (China) for the Performing Art 2012
+ 
+     
