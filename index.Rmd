@@ -15,7 +15,7 @@ output:
 
 
 # Here is a link to About & My Personal Resume
-[About me](about.html)
+[About me](About.html)
 
 
 [Personal Introduction](personal-intropage.html)
