@@ -3,8 +3,8 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Phone Number"
+      href: +1 5303648392
     - icon: fa-envelope fa-lg
       href: mailto:<xh2636@cumc.columbia.edu>
     - icon: fa-github fa-lg
