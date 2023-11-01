@@ -67,5 +67,23 @@ plot2 <- top_20_boxplot %>%
 
 plot2
 ```
+# Scatterplot about Frequency of day_since_piror_order of different departments. 
+```{r, warning=FALSE}
+# Group the data by department and calculate the frequency of each "day_since_prior_order"
+department_frequency <- instacart %>%
+  group_by(department, days_since_prior_order) %>%
+  summarize(count = n())
 
+scatter_freq <- plot_ly(data = department_frequency, 
+                x = ~days_since_prior_order, y = ~count, type = "scatter", mode = "markers", text = ~department, color = ~department)
+
+plot3 <- scatter_freq %>%
+  layout(
+    title = "Frequency of days since prior order by Department",
+    xaxis = list(title = "Days Since Prior Order"),
+    yaxis = list(title = "Frequency of order"),
+    hovermode = "closest"
+  )
+plot3
+```
 
