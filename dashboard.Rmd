@@ -1,19 +1,24 @@
 ---
-title: "Homework 4 problem 2"
+title: "Dashboard"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
 ---
 
-```{r, include=FALSE}
+```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
 ```
 
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-# Comparison of the total order numbers of products in all departments
+### Chart A: Comparison of the total order numbers of products in all departments
+
 ```{r}
 data("instacart")
 
@@ -37,8 +42,11 @@ plot1 <- dep_ord_relation %>%
 plot1
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
 
-# Top 20 most common product names and their corresponding order numbers analysis
+### Chart B: Top 20 most common product names and their corresponding order numbers analysis
+
 ```{r}
 # Group the data by product name and calculate the count of each product
 product_counts <- instacart %>%
@@ -67,7 +75,9 @@ plot2 <- top_20_boxplot %>%
 
 plot2
 ```
-# Scatterplot about Frequency of day_since_piror_order of different departments. 
+
+### Chart C: Scatterplot about Frequency of day_since_piror_order of different departments. 
+
 ```{r, warning=FALSE}
 # Group the data by department and calculate the frequency of each "day_since_prior_order"
 department_frequency <- instacart %>%
