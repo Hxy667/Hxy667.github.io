@@ -1,0 +1,69 @@
+---
+title: "Homework 4 problem 2"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+
+Comparison of the total order numbers of products in all departments：
+```{r}
+data("instacart")
+
+# Calculate the total order numbers for each department
+department_orders <- instacart %>%
+  group_by(department) %>%
+  summarize(total_orders = sum(order_number))%>%
+  mutate(department = fct_reorder(department, total_orders))
+
+dep_ord_relation <- plot_ly(department_orders, x = ~department, 
+                            y = ~total_orders, color = ~department, type = 'bar', 
+                            colors = "viridis")
+
+plot1 <- dep_ord_relation %>%
+  layout(
+    title = "Total Order Numbers by Department",
+    xaxis = list(title = "Department"),
+    yaxis = list(title = "Total Orders")
+  )
+
+plot1
+```
+```{r}
+product_counts <- instacart %>%
+  group_by(product_name) %>%
+  summarize(count = n()) %>%
+  arrange(desc(count))
+
+top_20_products <- product_counts %>%
+  head(20)
+
+filtered_data <- instacart %>%
+  filter(product_name %in% top_20_products$product_name)
+
+top_20_boxplot <- plot_ly(data = filtered_data, 
+                x = ~product_name, y = ~order_number, type = "box", 
+                color = ~product_name,
+                colors = "viridis")
+
+plot2 <- top_20_boxplot %>%
+  layout(
+    title = "Boxplot of Top 20 Common Products by Order Number",
+    xaxis = list(title = "Product Name"),
+    yaxis = list(title = "Order Number")
+  )
+
+plot2
+```
+
+```{r}
+
+```
+
