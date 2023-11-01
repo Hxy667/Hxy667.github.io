@@ -13,7 +13,7 @@ library(p8105.datasets)
 ```
 
 
-Comparison of the total order numbers of products in all departments：
+# Comparison of the total order numbers of products in all departments
 ```{r}
 data("instacart")
 
@@ -36,12 +36,17 @@ plot1 <- dep_ord_relation %>%
 
 plot1
 ```
+
+
+# Top 20 most common product names and their corresponding order numbers analysis
 ```{r}
+# Group the data by product name and calculate the count of each product
 product_counts <- instacart %>%
   group_by(product_name) %>%
   summarize(count = n()) %>%
   arrange(desc(count))
 
+# Select the top 20 most common product names
 top_20_products <- product_counts %>%
   head(20)
 
@@ -63,7 +68,4 @@ plot2 <- top_20_boxplot %>%
 plot2
 ```
 
-```{r}
-
-```
 
